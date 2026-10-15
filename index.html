@@ -221,7 +221,7 @@
     color: #ffffff;
     font-family: 'Georgia', serif;
     margin: 0 0 0.2rem 0;
-   margin-top: 2rem
+    margin-top: 2.5rem; 
   }
 
   h2 {
@@ -329,7 +329,7 @@
      ============================================================ */
   .top-back-wrapper {
   position: fixed;
-  top: 0.5rem;
+  top: 2rem;
   left: 0;
   right: 0;
   padding: 0 2rem;
@@ -934,9 +934,9 @@
 
 <!-- ⭐ BACK BUTTON — top-LEFT corner, OUTSIDE the hero card ⭐ -->
 <div class="top-back-wrapper">
-  <a class="back-btn" id="backBtn" href="https://www.theartisticunity.art/#portfolio" target="_blank" rel="noopener">
+  <a class="back-btn" id="backBtn" href="https://www.theartisticunity.art/" target="_blank" rel="noopener">
     <span class="arrow-glyph">←</span>
-    <span>Back to Main Site</span>
+    <span>Back</span>
   </a>
 </div>
 
@@ -983,49 +983,6 @@
 
 
 
-<!-- SERVICES -->
-<div class="container" id="services" style="margin-top: 0;">
-  <h2 style="margin-top: 0;">Our Core Services</h2>
-  <p style="color: #8a90a8; font-size: 0.9rem; margin-bottom: 0.5rem;">Click any card to open its website</p>
-
-  <div class="services-scroll-wrapper">
-    <div class="services-scroll">
-      <!-- REVENUE HUB — normal link now (⚠️ replace with your real URL) -->
-      <a class="service-card" href="https://revenue-hub-web-4ym.vercel.app/" target="_blank" rel="noopener">
-        <h3>📈 Revenue Hub</h3>
-        <p>Everything about revenue generation.</p>
-        <span class="card-note">A complete revenue engine — track, forecast, and grow every income stream in one place.</span>
-        <span class="card-link">Visit Site →</span>
-      </a>
-
-      <a class="service-card" href="https://booking-hub-web.vercel.app/" target="_blank" rel="noopener">
-        <h3>📅 Booking Hub</h3>
-        <p>Online booking system.</p>
-        <span class="card-note">Let clients book, reschedule, and pay online — automatically synced to your calendar and backend.</span>
-        <span class="card-link">Visit Site →</span>
-      </a>
-
-      <!-- BACKEND HUB — popup card now -->
-      <div class="service-card" id="backendHubCard" role="button" tabindex="0" aria-label="Backend Hub">
-        <h3>⚙️ Backend Services</h3>
-        <p>Everything about resource optimization.</p>
-        <span class="card-note">The engine room — inventory, finance, HR, and payroll working together to eliminate waste.</span>
-        <span class="card-link">You're already here!</span>
-      </div>
-
-      <a class="service-card" href="https://www.theartisticunity.art/" target="_blank" rel="noopener">
-        <h3>🎨 The Artistic Unity</h3>
-        <p>The combination of all these services.</p>
-        <span class="card-note">Revenue Hub + Booking Hub + Backend Services — unified into one seamless, scalable ecosystem.</span>
-        <span class="card-link">Visit Site →</span>
-      </a>
-    </div>
-  </div>
-
-  <p style="text-align: center; color: #c8cdde; font-size: 0.95rem; margin-top: 1rem;">
-    <strong>All modules</strong> are designed to work together — because fragmented systems kill productivity.
-  </p>
-</div>
 
 <!-- CONTACT -->
 <section class="contact-section" id="contact">
@@ -1158,8 +1115,8 @@
   /* ============================================
      ⭐ BACK BUTTON — paste any URL here ⭐
      ============================================ */
-  const BACK_BUTTON_URL = "https://www.theartisticunity.art/#backend-hub";
-  const BACK_BUTTON_LABEL = "Back"; // change the text if you want
+  const BACK_BUTTON_URL = "https://www.theartisticunity.art/";
+  const BACK_BUTTON_LABEL = "Back to Main Site"; // change the text if you want
 
   (function() {
     const backBtn = document.getElementById('backBtn');
